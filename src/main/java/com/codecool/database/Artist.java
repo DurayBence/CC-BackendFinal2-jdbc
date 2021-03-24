@@ -6,7 +6,6 @@ public class Artist {
     private final String name;
     private final Set<String> songTitles = new HashSet<>();
 
-
     public Artist(String name) {
         this.name = name;
     }
